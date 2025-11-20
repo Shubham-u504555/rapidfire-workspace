@@ -1,0 +1,303 @@
+Exported at by Swarna Mallik
+Created by Maria-Kleio Koumarela
+Step by Step Instructions - Amadeus
+1. Step by Step - Amadeus Rebooking using Flex and changes not permitted
+2. Step by Step - Void and Rebook in Amadeus
+3. Step by Step - Amadeus Partially used ticket
+4. Step by Step - Amadeus Rebooking using Flex and changes not permitted
+5. Step by Step - Amadeus ATC Voluntary change
+6. Step by Step - Amadeus Manual Change
+Step 1 - Starting point
+Question No linked steps
+Step by Step - Amadeus Rebooking using Flex and changes not permitted
+Question
+1. Step by Step - Amadeus Void and Rebook Step 2
+2. Step by Step - Amadeus Partially used ticket Step 3
+3. Step by Step - Amadeus Rebooking using Flex and changes not permitted Step 4
+4. Step by Step - Amadeus ATC Voluntary change Step 5
+5. Step by Step - Amadeus Manual Change Step 6
+Step 2
+Solution Parent step: 1
+Step by Step - Void and Rebook in Amadeus
+1. We open the PNR and see the status of the segments:
+>RT
+ 1.SXXX/MXXX MR(ADT)   2.SXXX/IXXXMS(ADT)                           
+  3  TK 460 W 10OCT 6 KBPIST HK2  2145 2350  10OCT  E  TK/VXXXXX                
+  4  TK 457 W 20OCT 2 ISTKBP HK2  0700 0845  20OCT  E  TK/VXXXXX               
+  5 AP TICKET=ETICKET                                                           
+  6 AP TRIP_UA                                                                  
+  7 AP 0038XXX                                                         
+  8 AP USRORGCTX LEISURE                                                        
+  9 APE SXXX@GMAIL.COM                                                   
+ 10 APM 0038XXX                                                         
+ 11 TK PAX OK30SEP/ATHGR28CS//ETTK/S3-4/P1-2  
+2. Check if the tickets are issued:
+>RTTN
+                                                      
+ 53 FA PAX 235-35XXXXXXXX/ETTK/EUR171.44/30SEP20/ATHGR28CS/27213                
+       082/S3-4/P1                                                              
+ 54 FA PAX 235-35XXXXXXXY/ETTK/EUR171.44/30SEP20/ATHGR28CS/27213                
+       082/S3-4/P2                                                              
+3. Check the tickets status and the date and CITY of issue:
+>TWD/L53
+TKT-23535XXXXXXXX        RCI-                     1A  LOC-VXXXXX                
+ OD-IEVIEV  SI-      FCPI-0   POI-ATH  DOI-30SEP20  IOI-27213082                
+   1.SXXX/MXXX MR          ADT            ST                                
+ 1 OKBP TK 460   W 10OCT2145 OK WY3PC         O              20K                
+ 2 OIST   TK 457   W 20OCT0700 OK WY3PC         O              20K                
+    KBP                                                                         
+FARE   F USD        55.00                                                       
+EQUIV    EUR        48.00       BSR     0.858351                                
+TOTALTAX EUR       123.44                                                       
+TOTAL    EUR       171.44                                                       
+/FC IEV TK IST27.50TK IEV27.50NUC55.00END ROE1.000000                           
+FP CCCAXXXXXXXXXXXX6715/1022/A448331                                            
+FOR TAX/FEE DETAILS USE TWD/TAX  
+4. If it is still the same day in Athens, which you can check with the command:
+>DDDEL2030/ATH
+DDDEL2030/ATH                                                                   
+ATH TIME IS 1800/0600P ON THU30SEP20                                            
+ATH IS 02HRS 30MIN EARLIER  
+5.  Search for availability for the new dates that customer prefers to travel and select the correct RBD:
+>SN10NOVKBPIST/ATK
+SN10NOVKBPIST/ATK                                                               
+** AMADEUS SCHEDULES - SN ** IST ISTANBUL.TR                  40 TU 10NOV 0000  
+ 1   TK 458  C4 D4 Z4 K4 J4 I4 R4 /KBP D IST    1040    1355  E0/333       2:15 
+             Y9 B9 M9 A9 H9 S9 O9 E9 Q9 T9 L9 V9 P9 W9 U9 X9 N9 G0              
+ 2   TK1256  C4 D4 Z4 K4 J4 I4 R4 /KBP D IST    1450    1805  E0/321       2:15 
+             Y9 B9 M9 A9 H9 S9 O9 E9 Q9 T9 L9 V9 P9 W9 U9 X9 N9 G0              
+ 3   TK 460  C4 D4 Z4 K4 J4 I4 R4 /KBP D IST    2050    0015+1E0/333       2:25 
+             Y9 B9 M9 A9 H9 S9 O9 E9 Q9 T9 L9 V9 P9 W9 U9 X9 N9 G0              
+>SS2W3
+And return:
+>SCR20NOV
+SN20NOVISTKBP/ATK -SC-                                                          
+** AMADEUS SCHEDULES - SN ** KBP BORYSPIL INTL.UA             50 FR 20NOV 0000  
+ 1   TK1257  C4 D4 Z4 K4 J4 I4 R4 /IST   KBP D  0125    0225  E0/73H       2:00 
+             Y9 B9 M9 A9 H9 S9 O9 E9 Q9 T9 L9 V9 P9 W9 U9 X9 N9 G0              
+ 2   TK 457  C4 D4 Z4 K4 J4 I4 R4 /IST   KBP D  0805    0910  E0/333       2:05 
+             Y9 B9 M9 A9 H9 S9 O9 E9 Q9 T9 L9 V9 P9 W9 U9 X9 N9 G0              
+ 3   TK1255  C4 D4 Z4 K4 J4 I4 R4 /IST   KBP D  1250    1355  E0/321       2:05 
+             Y9 B9 M9 A9 H9 S9 O9 E9 Q9 T9 L9 V9 P9 W9 U9 X9 N9 G0              
+ 4   TK 459  C4 D4 Z4 K4 J4 I4 R4 /IST   KBP D  1830    1935  E0/333       2:05 
+             Y9 B9 M9 A9 H9 S9 O9 E9 Q9 T9 L9 V9 P9 W9 U9 X9 N9 G0              
+>SS2W2
+6. So the new segments will appear in PNR:
+  3  TK 460 W 10OCT 6 KBPIST HK2  2145 2350  10OCT  E  TK/VXXXXX                
+  4  TK 457 W 20OCT 2 ISTKBP HK2  0700 0845  20OCT  E  TK/VXXXXX                 
+  5  TK 460 W 10NOV 2 KBPIST DK2  2050 0015  11NOV  E  0 333 M                  
+     SEE RTSVC                                                                  
+  6  TK 457 W 20NOV 5 ISTKBP DK2  0805 0910  20NOV  E  0 333 M                  
+     SEE RTSVC                                                    
+And now we can price them:
+)>FXX/S5-6/R,UP
+FXX/S5-6/R,UP                                                                   
+                                                                                
+                                                                                
+   PASSENGER                PTC    NP  FARE<EUR> TAX/FEE   PER PSGR                    
+01 SXXX/MXXX*                ADT     1      47.00            122.98     169.98                    
+02 SXXX/IXXXX*                ADT     1      47.00            122.98     169.98                    
+                                                                                
+                        TOTALS    2                  94.00            245.96     339.96                    
+                                                                                
+1-2 LAST TKT DTE 02OCT20 - SEE SALES RSTNS                                      
+1-2 TICKETS ARE NON-REFUNDABLE           
+7. Compare the total new cost per passenger with total original ticket cost:
+169.98  EUR-171.44=-1.46, hence there is no ticket diﬀerence to be charged.
+8. Check our fees:
+BASI
+C
+PREMI
+UM
+PLATIN
+UM
+FLEXIBLE
+OUR FEE-
+REBOOKING(24h)
+   
+TICKET DIFFERENCE        , If more than 10EUR/1 pax or 
+20EUR/2-9pax
+9. If the customer agrees, void the tickets with command TRDC/L55 and then TRDC/L56
+Message from Amadeus:
+OK-DOCUMENT(S)
+10. Update in the mask(TST) the new segments, using:
+TTU/S5-6
+11. Delete the old segments with XE3-4 and press ER to save the new 
+12. Update the action info in Edvin and send to the ticketing by placing on Queue
+Step 3
+Solution Parent step: 1
+Step by Step - Amadeus Partially used ticket
+Even if it is a Sabre booking the below instructions can only be done in Amadeus.
+1. In case we have partially used ticket, changes permitted but ATC is not applicable, we have to proceed
+with Manual Calculation.
+2. Open the pnr and ticket in the respective oﬃce id. Make availability and try ATC command. If does not
+work so use below command for ﬂown reissue.
+3. You have to include the used segments ﬁrst then after the dash all new ones that he requests
+4. Command:  fqp(dep.city)/ayy/c(class)/d(date of ﬂown seg)(dest.city)-/ayy/c(class)/d(date of new
+seg+dest.city)/r,oﬁice id,date of issue.
+5. In case of child we insert in the end RCH,oﬃce id and for infant RIN.
+6. Select the lowest available price, considering that the original outbound farebasis should be the same as
+in the initial ticket, while the new inbound farebasis should combine with the outbound one and the
+baggage allowance of the original ticket. Open the respective option with FQQ1(1 is the number of the
+option).
+7. Compare the price from the new mask with the old ticket. Fare with fare and one by one the taxes. 
+8. Create payment link as usual and if passenger wants to proceed, continue with same procedure of
+normal manual calculation of unused ticket as above. 
+9. Update new segments with TTU/S3-4.
+10. Use the rebooking wizard to send the PNR to ticketing. 
+11. More information can be found under Rebooking wizard folder
+12. If order needs urgent ticketing, select the "Mark as urgent" checkbox. For more info check HERE .
+13. Select change status and reason in the rebooking wizard.
+Step 4
+Solution Parent step: 1
+Step by Step - Amadeus Rebooking using Flex and changes not permitted
+AMADEUS
+Availability
+1. Retrieve pnr in respective o ce id, use RT+pnr
+2. Clone the pnr with RRP. All details will be cloned.
+3. Make availability for new and old  ights that he wants to keep using below command:
+4. sn(date)(citypair)/a(al) ex: sn25decatharn/ask
+5. Select seats: SS (n.seats)(class)(line n.) ex. SS2V1 or for di erent classes SS2VK1
+6. RT to retrieve pnr
+Pricing
+1. Price all segments that he will use. If he asks to rebook OB and keep IB you have to
+2. include in the command new OB and old IB.
+3. Pricing: Fxx/s1,2/r,up (informative- prices the class you have selected)
+4. Or: Fxp/s1,2 ( prices the classes you have selected and saves the mask)
+5. Pricing: Fxb/s1,2,4/r,up ( prices the best available combination, be careful to keep the same baggage
+allowance as in the original ticket and to not downgrade the cabin, if a speci c one has been selected).
+6. To open speci c fare basis pricing mask use FQQ(line of fare basis you want)
+Calculation
+1.  exible applied: Compare total new cost in GDS with Edvin Air amount
+2. If partialy used ticket: Compare total new cost with half of Edvin Air cost.
+3. Create payment link: Include the di erence in his currency. No penalty applies
+4. If passenger will not proceed or send PL for 30 min, ignore the pnr and register errand in Edvin with
+"Rebooking" template ( Flex tkt new ticket)
+Proceed with change
+1. Once payment link is paid we do all above steps again
+2. after the fxx- we update segments with TTU/s1,2 and ER(if needed)
+3. Check with TTH if new price is saved
+4. If you use FXP or FXB save with ER(it will save automatically the new segments)
+5. Use TKOK for ticketing element if needed.
+6. Add the email and phone number of pax as SSR CTC lines in the new PNR.
+Queue to ticketing
+1. Then open original pnr again:
+If original pnr is totally unused delete segments.
+If partially used: do not delete segments. Leave original pnr with the inbound segments active.
+2. Use the rebooking wizard to send the PNR to ticketing. 
+More information can be found under the Rebooking wizard folder
+If an order needs urgent ticketing, select the "Mark as urgent" checkbox.
+For more information click HERE.
+Select change status and reason in the rebooking wizard.
+EDVIN
+1. Link new cloned pnr - ALWAYS before using the rebooking wizard
+2. Remove  exible ticket from Edvin( if used for all)
+GDS
+Note: After using the  exible ticket product, changing the AP line is not required.
+Step 5
+Solution Parent step: 1
+Step by Step - Amadeus ATC Voluntary change
+Amadeus:
+Availability
+1. Retrieve pnr in respective o ce id, use RT+pnr
+2. Make availability for new  ights using below command:
+3. sn(date)(citypair)/a(al) ex: sn25decatharn/ask
+4. Select seats : SS3KK2 (3 are the seats/k booking classes/2 is the  ight line)
+5. RT to retrieve pnr
+Pricing
+1. Price all segments that he will use. If he asks to rebook OB and keep IB you have to include in the
+command new OB and old IB.
+2. Pricing: Fxq/r,up/s1,2,4 or fxq/s1,2,4( prices the class you have selected)
+3. If you receive the message no fare options for this  ight try the next:
+4. Pricing: Fxo/r,up/s1,2,4 or fxo/s1,2,4( prices the best available combination)
+5. Note: With fxo you may have downgrade. So always check new booking classes.
+6. If you receive this message: Delete previous TSTS or TST exists, press TTE/ALL and use the pricing
+command again
+Calculation
+1. No  exible tkt: Take the ADD collect amount and convert to customer's currency
+2. Create add on cart: Add collect+our voluntary rebooking service fee
+3. If  exible tkt applied: Deduct from the ADD collect the penalty mentioned in the mask.The result of this
+will be the fare di erence.
+4. Create add on cart: Only with fare di erence you have from the above deduction
+5. If the passenger will not proceed or you send PL for 30 min, ignore the pnr and use create a new case
+with rebooking wizard in order to register errand with all information
+Proceed with change
+1. Once payment link is paid we do all above steps again (availability) 
+2. More details can be found here: Flexible GDS - Rebooking
+3. after the fxq/fxo command we save with ER
+4. New segments in atc are saved automatically.
+5. Delete old segments: xe1-2+rt to double check what we have deleted+ er and IR
+Queue to ticketing
+Use the rebooking wizard to send the PNR to ticketing. 
+More information can be found under the Rebooking wizard folder
+If an order needs urgent ticketing, select the "Mark as urgent" checkbox.
+For more information click HERE.
+Select change status and reason in the rebooking wizard.
+EDVIN
+1. Remove  exible ticket from Edvin( if used for all)
+2. Remove payment link
+GDS
+Note: After using the  exible ticket product, changing the AP line is not required.
+Step 6
+Solution Parent step: 1
+Step by Step - Amadeus Manual Change
+You use manual calculation only when ATC not applicable by airline and changes are permitted in fare rules
+in the same PNR.
+Possible error message you may receive when you try ATC: Check category 31(Amadeus)
+Always check Fare rules (Category 16) and Max/Min. stay (Category 06 & 07) quoting rebooking charges for
+manual rebooking.
+The most important fare rules are:
+16.PENALTIES
+11.BLACKOUTS
+03.SEASONS
+04.FLIGHT APPL
+05.ADV RES/TKTG
+06.MIN STAY
+07.MAX STAY
+Availability
+1. Retrieve PNR in respective o ce id, use RT+PNR
+2. Make availability for new  ights using below command:
+sn(date)(citypair)/a(al) ex: sn25decatharn/ask
+3. Select seats: ss(n.of seats)(class)(line of  ight) ex. SS1Y1 OR SS1YY1( If  ight with connection)
+4. Then RT to retrieve pnr
+ATTENTION:
+There are airlines, like EK where before the availability and the seat selection must be made after the original
+segments are removed (removed without saving). Please follow the steps below:
+a: Retrieve the existing PNR 
+b: Remove the original dates (DO NOT SAVE any segments). Do a fresh availability and sell for the new
+itinerary required by the passenger. The agent may not see accurate availability, unless holding segments are
+cancelled. 
+c: After removing the segments, if there is no availability for new dates, the agent can ignore and retrieve the
+existing PNR – No seats from the original booking would have been lost.
+Pricing
+1. Price all segments that he will use. If you have round trip and he asks to rebook OB and keep IB you have
+to include in the command new OB and old IB.
+2. Pricing: Fxx/s1,2/r,up (informative- prices the class you have selected)
+Or 
+Fxp/s1,2 ( prices the classes you have selected and saves the mask)
+3. Pricing: Fxb/s1,2,4/r,up ( prices the best available combination, check that no downgrade has been done)
+4. To open speci c fare basis pricing mask use FQQ(line of fare basis you want)
+Calculation
+1. No  exible tkt: Compare fare+taxes one by one with old ticket in GDS.+penalty from fare rules and
+convert to pax currency
+2. Create Add on cart: total yy cost+our voluntary rebooking service fee 
+3. If  exible applied: Compare fare+taxes one by one with old ticket in GDS.
+4. If you have IT fare: Use TQT to check fare amount of original ticket.
+5. Create Add on cart: Sum up fare and tax from comparison. No penalty applies
+6. If passenger will not proceed or you've created Add on cart and it is not working, ignore the pnr and
+register errand in rebooking wizard with no queue action
+Proceed with change
+1. Once payment link is paid we do all above steps again.
+2. More details can be found here: Flexible GDS - Rebooking
+3. after the fxx- we update segments with TTU/s1,2 and ER(if needed)
+4. Check with TTH if new price is saved
+5. If you use FXP or FXB save with ER or ERK, if ER does not work
+6. Delete old segments: xe1-2 and RT to double check what we have deleted, then ER and IR
+Queue to ticketing
+Use the rebooking wizard to send the PNR to ticketing. 
+More information can be found under Rebooking wizard folder
+If an order needs urgent ticketing, select the "Mark as urgent" checkbox. For more information click HERE.
+Select change status and reason in the rebooking wizard.
+EDVIN
+1. Remove  exible ticket from Edvin (if used for all)
+2. Remove payment link (if applicable)

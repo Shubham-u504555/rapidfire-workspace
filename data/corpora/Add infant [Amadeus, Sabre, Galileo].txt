@@ -1,0 +1,25 @@
+Add infant [Amadeus, Sabre, Galileo]
+Open the PNR and check that all segments are HK as well as the ticket status.
+Inform the passenger of the minimum fee (Our Service Fee - Add infant wherever applicable) and that a 
+separate payment link will be sent from SL for ticket price for adding the infant according to the 
+pricing.
+Passengers over 2 years old are classiﬁed as child passengers (under 12 years of age). Please follow the respective routine here
+If they agree, create an Add on cart with the minimum cost as advised above and follow standard 
+routines as per the chosen method of payment. If you use the payment link, advise the deadline that 
+the passenger has to pay.
+If they do not agree you may refer them to the airline.
+Note down the full name and date of birth of the infant both in the Text to customer ﬁeld in your Add on 
+cart as well as in your errand.
+Ask to which passenger the infant will be associated with and for which ﬂights (whole, OB, IB, if multi) 
+(please pay attention to the character limit, the adult with the shorter name would be the best option to 
+select).
+If the passenger pays over the phone, proceed with Register Errand, selecting the ‘'Ticketing template/ 
+Tkt info add infant''.
+
+Place on queue in Edvin in order to queue to ticketing
+ATH, UPA, BOM, CNX and WNS:
+
+If the customer pays afterwards, the support agent will handle it as per the above guidelines. No need 
+for FL agents to make any pricing or actions in the PNR.
+The payment link can be removed from the FL agent/ support agent once the request is sent to 
+ticketing.

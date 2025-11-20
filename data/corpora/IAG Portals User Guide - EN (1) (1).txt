@@ -1,0 +1,361 @@
+1 
+ 
+ 
+ 
+ 
+IAG Portal booking 
+ 
+User guide 
+ 
+1. How to book? ................................................................................. 2 
+2. How to manage Portal Bookings? ...................................................... 9 
+2.1. How to edit Itinerary? ................................................................ 9 
+2.2. How to edit passengers? ........................................................... 11 
+2.2.1 How to change the name of the passenger? ............................ 12 
+2.3 Edit Services ............................................................................. 13 
+2.4 Cancel a Booking ....................................................................... 14 
+3. ¿How to manage External Bookings? ................................................ 14 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+2 
+ 
+1. How to book? 
+Step 1: Log in  
+Identify yourself with your email and your password.  
+Step 2: Flight search 
+To create a new booking click on the Bookings icon, where 3 options will 
+be displayed. 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Select Create Booking and the following screen will appear: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 
+ 
+Enter the city of origin, the destination city, the dates of the trip and the 
+number of passengers (in Passenger Types). You can choose between 
+round trip or one way flight. 
+You can also choose if you work with a consolidator. 
+Once you have filled in the fields, click on Search. 
+ 
+Step 3: Flight selection  
+In the following  step, you will see the available flights list:  
+ 
+A In the left panel you can filter your search by different parameters such 
+as price, airline, time of arrival and departure or direct flights or with stops 
+B The most economic options of each fare family appear in the table above. 
+C In SELECT FLIGHTS you can see all the available options and choose the 
+one you want. 
+ 
+ To continue,  select the option you want and click on: 
+Checkout. 
+ 
+ 
+ 
+
+4 
+ 
+Step 4: Flight details and passenger’s information. 
+Once the flight is selected, in this page you can check your flight details, 
+included services, fare rules and baggage allowance along with the payment 
+time limit.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+You can also fill in the passenger's information in  Passenger Details: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5 
+ 
+ 
+You can also choose a seat once you have filled in all the information. To do 
+this in Services press on SEATING SELECTION. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+6 
+ 
+ 
+1 Click on the blue panel 
+2 A message will be displayed that the seat selection service will be 
+available for each segment. 
+3 The Select Seats option will be enabled, which you can 
+click to continue: 
+ 
+ 
+ 
+ 
+The seat map will be displayed showing those available. 
+By clicking on the desired one, you can save your selection. 
+7 
+ 
+Step 5: Payment. 
+There are two ways:. 
+1.Cash payment for Iata agencies. 
+2. Credit card for not Iata agencies. 
+1. Clcik on Checkout With Cash and confirm the payment. 
+2. Credit Card: 
+ Person information. 
+ Billing address. 
+ Payment method: Card number, card holder name, expiration 
+date , security code. 
+ 
+ 
+You can click on Person Paying 
+to display the passenger 
+information to retrieve the 
+previous data filled during the 
+booking.  
+Also if there is a Credit Card Saved. 
+ 
+Click on the red button to continue 
+
+8 
+ 
+Once done, the itinerary information will appear: 
+9 
+ 
+2. How to manage Portal Bookings? 
+You are able to do the following arrangements:  
+ View Itinerary. 
+ Edit Itinerary. 
+ Edit Passengers. 
+ Edit Services (seat). 
+ Cancel Booking. 
+To do so go:  Bookings > Manage Portal Bookings. 
+Search for the Booking you want to manage and press to 
+edit to view- 
+For the search of the reserve there are filters to classify and order bookings. 
+ 
+2.1. How to edit Itinerary? 
+Step 1:  Edit itinerary 
+Bookings> Manage Portal Bookings >  Edit  Itinerary 
+You can change one way, the round trip or round trip, by clicking on the 
+Red buttons: Change Outbound, Change Inbound or Change Itinerary. 
+ 
+10 
+ 
+Step 2: Choose new dates and select flights 
+This case shows how to change both flights date. You can do it directly by 
+clicking on: Change Itinerary: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Step 3: Confirm 
+After selecting the new dates, press next and the flight options will appear. 
+Select and Confirm changes. 
+ 
+ 
+ 
+11 
+ 
+2.2. How to edit passengers? 
+ Bookings > Manage Portal Bookings >            Edit Passengers   
+! The phone number goes with  the dial code separately. 
+Changes allowed: 
+ Email 
+ Phone number. 
+ Passenger's first and / or last name up to 3 characters. 
+ 
+ 
+ 
+ 
+
+12 
+ 
+2.2.1 How to change the name of the passenger? 
+ 
+Through the portal it is allowed to change up to 3 characters of the name 
+and / or surname. 
+To do this, the panel must be displayed: Advanced Passenger 
+Information (API). 
+ Once finished,  click on: Confirm  Changes. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+13 
+ 
+2.3 Edit Services 
+Currently only seat management is available 
+Bookings > Manage Portal Bookings >      Edit Services 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+14 
+ 
+By clicking on Select Seats, the seat map will be displayed:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.4 Cancel a Booking 
+To cancel a Booking made in the portal, access: 
+Bookings > Manage Portal Bookings  > Cancel Booking 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ACCEPT 
+CONFIRM 
+
+15 
+ 
+3. ¿How to manage External Bookings? 
+ 
+Bookings > Manage External Bookings 
+ 
+To manage an external booking you need: 
+ Passenger surmame. 
+ Booking reference. 
+ Iata number of creator. 
+ Once the previous fields have been introduced, the same steps can 
+be taken as in How to Manage Portal Bookings. 
+ 
+ 
+ 
+4. Support and FAQ’s 
+For more information: 
+https://agencyportal.iag.cloud/assets/files/faq/en-faq-agency-admin.pdf

@@ -1,0 +1,11 @@
+transformers>=4.44.0
+accelerate>=0.33.0
+bitsandbytes
+xformers
+huggingface_hub[cli]
+hf-transfer
+fastapi
+uvicorn[standard]
+pydantic>=2
+datasets
+requests
